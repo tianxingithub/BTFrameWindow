@@ -230,6 +230,7 @@ ads--CDockWidgetTab[activeTab="true"]{
 	border:1px solid rgb(229,230,232);
 	padding: 0px;
 	font-color:rgb(30,136,254);
+	margin-top: 5px;
 }
 
 /*ads--tab 里面的btn*/
@@ -251,19 +252,23 @@ ads--CDockWidgetTab {
 	background-color: rgb(247,248,250);
 	border:1px solid rgb(229,230,232);
 	padding:3px;
+	margin-top: 5px;
+	
 }
 /*ads--CDockWidgetTab[activeTab="true"]估计真得写两次才行，只写一次测试不生效*/
 ads--CDockWidgetTab[activeTab="true"] {
 	background-color: white;
 	border:1px solid rgb(229,230,232);
 	padding:3px;
+	margin-top: 5px;
 }
 
 /*ads tab横条*/
 ads--CDockAreaWidget{
 	background-color: rgb(240,242,245);
 	border: 1px solid white;
-}
+	
+}/*margin: 5px;*/
 
 
 
