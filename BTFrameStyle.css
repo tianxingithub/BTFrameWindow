@@ -311,16 +311,20 @@ QHeaderView::section{
 
 /*复选框的响应*/
 QCheckBox::indicator {
+	
+	
 	image:url(./images/check-default.png)
 }/*background-color:white;
 border: 1px solid rgb(229,230,235);
 border-radius: 10px;*/
 
-QCheckBox::indicator:hover {	
+QCheckBox::indicator:hover {
+	
 	image:url(./images/check-hover.png)
 }/*border: 1px solid rgb(71,157,250);*/
 
 QCheckBox::indicator:checked {
+	
 	
 	image:url(./images/check-checked.png)
 }/*border: 1px solid rgb(71,157,250);color:white;*/
