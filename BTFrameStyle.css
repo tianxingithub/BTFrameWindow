@@ -263,8 +263,9 @@ ads--CDockWidgetTab {
 	padding:3px;
 }
 
-ads--CDockAreaWidget[activeTab="true"]{
-	background: white;
+/*ads tab横条*/
+ads--CDockAreaWidget{
+	background-color: rgb(240,242,245);
 	border: 1px solid white;
 }
 
@@ -275,9 +276,10 @@ SAWindowToolButton {
   background-color: rgb(247,248,250); 
   border:none;
 }
+/*未找到变化处*/
 SAWindowToolButton:focus {
   font-weight: bold;
-  background-color: transparent;
+  background-color: white;
 }
 SARibbonPannel {
   background-color: rgb(247,248,250);
@@ -295,7 +297,7 @@ QHeaderView::section{
 	background-color: rgb(247,248,250);
 }
 
-/*通过名字设置样式*/
+/*通过名字设置样式，似乎没生效（没看见变化）*/
 /*
 #tabsMenuButton{
 	background-color:rgb(247,248,250);
@@ -309,24 +311,22 @@ QHeaderView::section{
 #detachGroupButton {
 	background-color:rgb(247,248,250);
 	border:1px solid rgb(229,230,232);
-}
-*/
+}*/
 
+
+
+/*复选框的响应*/
 QCheckBox::indicator {
-	
-	
 	image:url(./images/check-default.png)
 }/*background-color:white;
 border: 1px solid rgb(229,230,235);
 border-radius: 10px;*/
 
-QCheckBox::indicator:hover {
-	
+QCheckBox::indicator:hover {	
 	image:url(./images/check-hover.png)
 }/*border: 1px solid rgb(71,157,250);*/
 
 QCheckBox::indicator:checked {
-	
 	
 	image:url(./images/check-checked.png)
 }/*border: 1px solid rgb(71,157,250);color:white;*/
@@ -336,11 +336,12 @@ QCheckBox::indicator:indeterminate {
 	
 }/*color:white;border:1px;*/
 
+
+/*单选框的响应*/
 QRadioButton::indicator{
 	
 	image: url(./images/radio-default.png)
 }
-
 
 QRadioButton::indicator:hover {
 	
@@ -358,6 +359,7 @@ QRadioButton::indicator:checked {
 
 /*url(:/ads/images/detach-button.svg)*/
 
+/*模型树的响应*/
 QTreeView::branch:closed:has-children {
 	image: url(./images/tree-close.png)
 }
