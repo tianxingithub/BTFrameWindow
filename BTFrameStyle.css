@@ -309,7 +309,6 @@ QHeaderView::section{
 
 
 
-/*复选框的响应*/
 QCheckBox::indicator {
 	
 	
@@ -335,7 +334,7 @@ QCheckBox::indicator:indeterminate {
 }/*color:white;border:1px;*/
 
 
-/*单选框的响应*/
+
 QRadioButton::indicator{
 	
 	image: url(./images/radio-default.png)
