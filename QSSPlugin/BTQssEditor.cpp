@@ -10,6 +10,7 @@ BTQssEditor::BTQssEditor(QWidget*parent)
 	ui->treeWidget->setAlternatingRowColors(true);
 	ui->tableWidget->setAlternatingRowColors(true);
 // 	ui->tableWidget->set
+	this->setStyleSheet("QDialog { background-color:#f0f2f5}");
 }
 
 

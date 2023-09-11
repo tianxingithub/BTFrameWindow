@@ -74,6 +74,7 @@ public:
         if (BTQSSDialog->objectName().isEmpty())
             BTQSSDialog->setObjectName(QString::fromUtf8("BTQSSDialog"));
         BTQSSDialog->resize(1128, 752);
+        BTQSSDialog->setStyleSheet(QString::fromUtf8(""));
         horizontalLayout = new QHBoxLayout(BTQSSDialog);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         splitter = new QSplitter(BTQSSDialog);
