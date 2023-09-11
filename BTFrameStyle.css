@@ -229,15 +229,7 @@ ads--CDockWidgetTab[activeTab="true"]{
 }
 
 
-/*比较迷惑，这里不生效，下面的生效*/
-ads--CDockWidgetTab QPushButton{
-	background-color: rgb(242,243,245);
-	color:white;
-	padding:0px;
-	border-radius:5px;
-}/*background-image: url(./images/btnclose.png);border: 0px;
-	margin: 0px;*/
-
+/*ads--tab 里面的btn*/
 ads--CDockWidgetTab QPushButton{
 	background-color:rgb(242,243,245);
 	padding:0px;
