@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 	QApplication a(argc, argv);
 	BTFrameWindow w;
 // 	a.setStyleSheet("");
-	QString qssFile = QString("D:/tianxin/BTFrameWindow/BTFrameStyle.css");
+	QString qssFile = QString("E:/QSS/BTFrameStyle.css");
 // 	QString qssFile = QString("BTFrameStyle.css");
 // 	QString qssFile = QString("D:/tianxin/Desktop/stylesheets/focus_highlighting.css");
 	QFile styleFile(qssFile);

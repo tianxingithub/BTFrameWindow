@@ -51,9 +51,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ui_QSSPluginDialog.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ui_BTQssEditor.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
