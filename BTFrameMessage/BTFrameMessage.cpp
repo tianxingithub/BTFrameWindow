@@ -25,12 +25,12 @@ void BTFrameMessage::btnYesSlot()
         showOK = true;
     } 
 
-    auto box = new MsgBox(ti, con, showOK);
+    auto box = new BTMsgBox(ti, con, showOK);
     box->show();
 }
 
 void BTFrameMessage::btnNoSlot()
 {
-    auto box = new MsgBox();
+    auto box = new BTMsgBox();
     box->show();
 }
