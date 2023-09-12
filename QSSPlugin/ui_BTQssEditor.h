@@ -154,6 +154,8 @@ public:
 
         checkBox = new QCheckBox(groupBox_3);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
+        checkBox->setChecked(false);
+        checkBox->setTristate(true);
 
         gridLayout->addWidget(checkBox, 1, 0, 1, 1);
 
