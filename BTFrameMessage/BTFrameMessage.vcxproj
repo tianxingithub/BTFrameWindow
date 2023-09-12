@@ -95,11 +95,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MsgBox.cpp" />
     <QtRcc Include="BTFrameMessage.qrc" />
     <QtUic Include="BTFrameMessage.ui" />
     <QtMoc Include="BTFrameMessage.h" />
     <ClCompile Include="BTFrameMessage.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtUic Include="MsgBox.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MsgBox.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

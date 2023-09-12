@@ -14,6 +14,9 @@ class BTFrameMessage : public QMainWindow
 public:
     BTFrameMessage(QWidget *parent = nullptr);
     ~BTFrameMessage();
+public:
+    void btnYesSlot();
+    void btnNoSlot();
 
 private:
     Ui::BTFrameMessageClass *ui;
