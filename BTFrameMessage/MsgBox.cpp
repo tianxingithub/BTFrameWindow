@@ -9,11 +9,11 @@ MsgBox::MsgBox(QString title, QString content, bool showOK,QWidget* parent)
 	this->setWindowFlags(Qt::FramelessWindowHint);
 	if (showOK) 
 	{
-		this->setFixedSize(520, 220);
+		this->setFixedSize(340, 160);
 	}
 	else 
 	{
-		this->setFixedSize(340, 150);
+		this->setFixedSize(340, 100);
 	}
 	
 	ui->msgIcon->setPixmap(QPixmap("E:/images/BTMsgBox/notice2.png"));
