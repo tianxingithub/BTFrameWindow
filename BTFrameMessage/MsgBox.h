@@ -12,7 +12,7 @@ class MsgBox : public QDialog
 	Q_OBJECT
 
 public:
-	MsgBox(QWidget *parent = nullptr);
+	MsgBox(QString title = "title", QString content = "content", bool showOK = false, QWidget* parent = nullptr);
 	~MsgBox();
 
 private:

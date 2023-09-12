@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>有按钮</string>
+     <string>按钮</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btn_no">
@@ -37,7 +37,46 @@
      </rect>
     </property>
     <property name="text">
-     <string>无按钮</string>
+     <string>按钮</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editTitle">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>119</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>这是个标题测试 </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editContent">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>169</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>这是提示文本</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="editOK">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
     </property>
    </widget>
   </widget>
