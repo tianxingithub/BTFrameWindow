@@ -1,9 +1,8 @@
 
 /** 批注说明：
-# 1.必须单独一行【不确定】
-# 2.不能放在样式内部【不确定】
+1.必须单独一行
+2.不能放在样式内部
 3.需要区分大小写
-4. 批注不能用//
 */
 
 
@@ -63,7 +62,7 @@ SARibbonPannel > SARibbonButtonGroupWidget {
 QLineEdit{
 	background-color: white;
 	border: 2px solid #e0e0e0;
-	min-height: 18px;	
+	height: 30px;	
 	margin: 4px 4px 4px 4px;
 	width: 210px;
 }
@@ -85,28 +84,6 @@ QLineEdit:disabled{
 	border: 2px solid #ccc;
 	margin: 4px 4px 4px 4px solid #ccc;
 	color:#999
-}
-
-/*为什么不生效*/
-QDialog QLineEdit{
-	height: 18px;
-	margin: 0px;
-	width: 100px;
-}
-QDialog QLineEdit:hover{
-	height: 18px;
-	margin: 0px;
-	width: 100px;
-}
-QDialog QLineEdit:focus{
-	height: 18px;
-	margin: 0px;
-	width: 100px;
-}
-QDialog QLineEdit:disabled{
-	height: 18px;
-	margin: 0px;
-	width: 100px;
 }
 
 
@@ -327,6 +304,7 @@ QHeaderView::section{
 
 /*通过名字设置样式，似乎没生效（没看见变化）*/
 /*
+【复选框、单选框的响应不能加注释，还不能加在最后面】
 #tabsMenuButton{
 	background-color:rgb(247,248,250);
 	border:1px solid rgb(229,230,232);
@@ -348,15 +326,14 @@ QCheckBox::indicator {
 	image:url(./images/check-default.png)
 }
 /*
+【复选框、单选框的响应不能加注释在头部，测试不下5次，原因未知】
 background-color:white;
 border: 1px solid rgb(229,230,235);
 border-radius: 10px;*/
 
-/*复选框响应*/
 QCheckBox::indicator:hover {
 	
 	image:url(./images/check-hover.png)
-	/*可以添加注释*/
 }
 /*border: 1px solid rgb(71,157,250);*/
 
@@ -373,11 +350,10 @@ QCheckBox::indicator:indeterminate {
 }
 /*color:white;border:1px;*/
 
-/*单选框响应*/
+
 QRadioButton::indicator{
 	
 	image: url(./images/radio-default.png)
-	
 }
 
 
@@ -400,13 +376,16 @@ QRadioButton::indicator:checked {
 
 /*模型树的响应*/
 QTreeView::branch:closed:has-children {
+	image: url(./images/tree-close.png)
+}
+
+QTreeView::branch:open:has-children {
 	image: url(./images/tree-open.png)
 }
 
 QTreeView::branch:open:has-children {
-	image: url(./images/tree-close.png)
+	image: url(./images/tree-open.png)
 }
-
 
 
 
